@@ -1,6 +1,10 @@
 body {
-    background: rgb(34, 30, 143);
-    /* color: rgb(192, 49, 92); */
+    background-image: linear-gradient(185deg, rgba(34, 30, 143, 0.913) 30%, rgba(192, 49, 92, 0.913)), url(https://cdn.pixabay.com/photo/2013/08/28/12/03/plumage-176723_960_720.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
     color: white;
     padding-top: 3%;
     font-family: 'Goldman', cursive;
@@ -13,17 +17,18 @@ caption {
 }
 
 table {
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 30px;
     width: 60%;
     border: 1px solid;
     border-radius: 5px;
     border-collapse: separate;
     border-spacing: 0;
+    table-layout: auto;
 }
 
 td {
-    border-top: 1px solid;
+    border-top: 1px white solid;
 }
 
 td,
@@ -73,6 +78,7 @@ label {
 }
 
 .search form input {
+    outline: none;
     border-radius: 5px;
     border: none;
     width: 90%;
