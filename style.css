@@ -121,3 +121,17 @@ a:hover {
     height: 16px;
     width: 16px;
 }
+
+.negative-png {
+    vertical-align: middle;
+    height: 12px;
+    width: 12px;
+    margin-left: 1px;
+    margin-right: 4px;
+}
+
+@media only screen and (max-device-width: 1080px) and (orientation: portrait) {
+    table {
+        width: 100%;
+    }
+}
